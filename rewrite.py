@@ -9,6 +9,7 @@ import time
 OLLAMA_HOST="10.0.29.96"
 OLLAMA_PORT="11435"
 ENABLE_REWRITE = True
+LLM_MODEL="Mellum-4b-sft-all"
 ##################################
 
 inner1 = {
@@ -58,7 +59,7 @@ inner2_1 = {
 inner3 = {
     "type": "Meta",
     "stop_reason": "eos_token",
-    "llm_name": "Mellum-4b-base"
+    "llm_name": LLM_MODEL
 }
 
 events = [
@@ -166,7 +167,7 @@ def request(flow: http.HTTPFlow):
                 )
 
                 newData = {
-                    "model": "JetBrains/Mellum-4b-base",
+                    "model": "JetBrains/" + LLM_MODEL,
                     "messages": [
                         {
                             "role": "user",

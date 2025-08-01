@@ -17,7 +17,7 @@ If you want the whole power of Jetbrains AI assistant, please consider using it 
 
 # Installation
 
-- in ollama, pull https://ollama.com/JetBrains/Mellum-4b-base
+- in ollama, pull https://ollama.com/JetBrains/Mellum-4b-base or your preferred Mellum SFT model, e.g. Mellum-4b-sft-all
 - in IDEA, install Jetbrains AI assistant plugin
   - disable GitHub Copilot plugin if you enabled the plugin before. Mellum is better. hi JB
 - in IDEA, setup an http proxy on host 127.0.0.1 && port 8080
