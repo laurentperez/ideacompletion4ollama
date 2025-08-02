@@ -2,7 +2,7 @@
 
 TL;DR : This is a script to make code completion of Jetbrains AI assistant available using a Mellum model hosted on an ollama server.
 
-Jetbrains open sourced base ad sft versions of Mellum under https://blog.jetbrains.com/ai/2025/04/mellum-goes-open-source-a-purpose-built-llm-for-developers-now-on-hugging-face/
+Jetbrains open sourced base and sft versions of Mellum under https://blog.jetbrains.com/ai/2025/04/mellum-goes-open-source-a-purpose-built-llm-for-developers-now-on-hugging-face/
 
 ATM code completion in Jetbrains IDEs is using a cloud-based Mellum model. Code completion does not currently work 
 with an on-premise model served by a local or remote ollama server. 
